@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;900&display=swap');
+
+
+.logo {
+  width: 200px;
+  height: auto;
+}
+
+.N_Bar {
+  align-items: center;
+  list-style-type: none;
+
+}
+
+.ulNav {
+  list-style-type: none;
+}
+
+.N_Bar ul {
+  overflow: auto;
+  list-style-type: none;
+}
+
+.N_Bar li {
+  list-style-type: none;
+}
+
+.survey {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+  background-color: rgb(249, 245, 232);
+  flex-wrap: wrap;
+}
+
+.LinkBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  padding: 6rem;
+  min-height: 100vh;
+  background-color: rgb(249, 245, 232);
+  flex-wrap: wrap;
+}
+
+.survey > div {
+  background-color: #f1f1f1;
+  width: 150px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+
+.main > div {
+  background-color: #f1f1f1;
+  width: 150px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
